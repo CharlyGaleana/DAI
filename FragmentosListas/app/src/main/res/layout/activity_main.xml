@@ -9,8 +9,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.sdist.fragmentoslistas.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#0066cc"
+        android:id="@+id/fragmento_agregar">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#cdcdcd"
+        android:layout_below="@+id/fragmento_agregar"
+        android:layout_marginTop="5dp"
+        android:id="@+id/actividad_principal">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#999999"
+        android:layout_below="@+id/actividad_principal"
+        android:layout_marginTop="5dp"
+        android:id="@+id/opciones">
+    </RelativeLayout>
+
+
 </RelativeLayout>
